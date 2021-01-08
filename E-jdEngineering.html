@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Joseph D. Sizemore</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    
+    <!-- Sidebar -->
+    
+    <!-- Note: Content of Sidebar copied from 'index.html',
+           managed by a python script -->
+    
+      
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading">
+        <a href="index.html">  
+          <img src="jdLogo_light.png" alt="Hex Logo" style="width:px;height:50px;display: block;margin-left: auto;margin-right: auto;">
+        </a>
+      </div>
+      <div class="list-group list-group-flush">
+          
+      
+        <button class="accordion">Engineering</button>
+        <div class="panel">
+            <button class="accordion">Temperature Sensor</button>
+            <div class="panel">
+                <a href="E-Therm.html">
+                    <button class="sub-accordion">Problem Description</button>
+                </a>
+                <a href="E-Therm-A.html">
+                    <button class="sub-accordion">Solution Alpha</button>
+                </a>
+                <a href="E-Therm-B.html">
+                    <button class="sub-accordion">Solution Bravo</button>
+                </a>
+                <div class="accordion-footer"></div>
+            </div>
+            <button class="accordion">HDD Clock Controller</button>
+            <div class="panel">
+                <a href="E-HDDclock.html">
+                    <button class="sub-accordion">Problem Description</button>
+                </a>
+                <a href="E-HDDclock-A.html">
+                    <button class="sub-accordion">Solution Alpha</button>
+                </a>
+                <div class="accordion-footer"></div>
+            </div>
+            <a href="E-jdEngineering.html">
+                <button class="sub-accordion">Description</button>
+            </a>
+            <div class="accordion-footer"></div>
+        </div>
+        <button class="accordion">Writing</button>
+        <div class="panel">
+            <button class="accordion">Summertime Story</button>
+            <div class="panel">
+                <a href="W-SummertimeStory-0.html">
+                    <button class="sub-accordion">Original</button>
+                </a>
+                <a href="W-SummertimeStory-1.html">
+                    <button class="sub-accordion">Rewrite</button>
+                </a>
+                <div class="accordion-footer"></div>
+            </div>
+            <a href="W-TheHallowedEve.html">
+                <button class="sub-accordion">The Hallowed Eve</button>
+            </a>
+            <a href="W-LifelongFriends.html">
+                <button class="sub-accordion">Lifelong Friends</button>
+            </a>
+            <a href="W-OurConversations.html">
+                <button class="sub-accordion">Our Conversations</button>
+            </a>
+            <div class="accordion-footer"></div>
+        </div>
+      </div>
+        
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <button class="toggle-button" id="menu-toggle">Toggle Menu</button>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <a href="index.html">
+                <button class="home-button">Home</button>
+            </a>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container-fluid">
+        <h1 class="head-1">Description of Engineering Documentation</h1>
+        <p class="text-1">This page provides an overview of the organization and nomenclature I've chosen to use throughout my documentation. I do intend this description of my practices to be comphrensive and useful to those completely unfamiliar with standard engineering industry practices, but if at some point I find I cannot meet both those goals in one location, I will opt to fulfill better the latter.</p>
+          <h2 class="head-2">Release</h2>
+          <p class="text-2">I consider every document under the 'Engineering' folder on this website to be 'Released', by virtue of its being on this website. For me, a released document is any document that either has been made available to a wider world or could be. A released document is a document which is 'finished', and which I try not to continue to modify (though I occasionally make small edits, likely to address my own clerical errors). A document is considered 'released' when it recieves a part number. As of writing, I have totally seperate part numbers 3 things I create: Products, Boards, and Code.</p>
+          <h2 class="head-2">Products, or Projects</h2>
+          <p class="text-2">In much of my personal documentation, I use the term 'Product', but occasionally I use 'Project' when it fits better. Here, 'Project' has a more accurate connoation, so I will use that. Most concretely, a project is a set of problems or goals that I would like solved. Projects are named descriptively to give a good first sense of the set of goals the projects contains. The only restrictions on project names is that they be unique within my set of projects. When deriving a part number from a project name, I will find some way to shorten it if it is long, and remove any spaces. I use care when selecting a stated set of goals for a project, but I will sooner reword or rework goals when they are reiterated in design rationale documents than contort representations of my work in those documents to match goals.</p>
+            <h3 class="head-3">Solutions</h3>
+            <p class="text-3">A solution is directly associated with a design rationale document, which describes in an uncontrolled format why all the choices were made in this solution. In layman's terms, a solution is an answer to the set of problems posed by a project.</p>
+            <p class="text-3">I use the NATO-phonetic alphabet (with 'alpha' not 'alfa', sorry) to designate different solutions. A solution designator is unique only to the project to which it's associated, such that there is only one 'Alpha' solution for a particular project. This gives each project 26 potential unique solutions, more than I expect to need. Solution names are designated in chronological order of when solutions are released, so that the 'Bravo' solution is never released before the 'Alpha' solution. Within a project, all solutions are only related by the set of problems that they solve (This is the ideal. A solution may occasionally miss some, but never all, defined goals), not by how they solve the problem; think of the number of ways to skin a cat.</p>
+            <h3 class="head-3">Revisions</h3>
+            <p class="text-3">Mistakes and errors in released are corrected by revisions. These are simply numbered, with the initial revision being '0'. All revisions of a particular solution are associated with the same design rationale, that is, the design rationale of that solution. However, what is unique to a particular revision is a Bill of Materials (BOM) and an optional errata note.</p>
+            <p class="text-3">The BOM, at a minimum, lists all of the parts needed to construct this revision of a solution. Additionally, I typically include quantity, price, and manufacturer, and I give a readily understood description of each part and its part number, if available. This list includes anything I make custom that is needed by a revision. So, if you've wondered why I bother with this whole system of tracking released documents, this is why; part numbers make the BOM a powerful document capable of precisely describing a complex solution to a problem with just a few lines, and usually empower the BOM to imply how that all those parts should be assembled. Errata are occasionally included hehlpful notes that explain what errors were addressed, but if the errors are very minor I allow the existence of a revision to provide the needed errata, namely, that there were errors in a previous revision that aren't in this one.</p>
+            <p class="text-3">Note, on this website I sometimes will not make available every revision, but I will always make available the latest revision, which should be the most mistake-free. Additionally, if a solution has only its initial revision (just its vision) then I will list that on the same page as the design rationale</p>
+        <img src="assets/E-jdEngineering1.png" alt="Part Numbering Graphic" style="width: 500px; float: right">
+          <h2 class="head-2">Boards</h2>
+          <p class="text-2">Printed Circuit Board (PCB) design is what I consider my key techincal skill, and is the one which I am most keen to develop. While a board is typically assiociated with just one revision, I've kept the part numbering scheme completely seperate so that they require proper reference in the BOM. Additionally, since part numbers are usually only guranteed to be unique to a particular manufacturer, I use a pseudonym to refer to the Joseph that makes boards. Tyipcally this is "Joe's Boards" or "jdBoard".</p>
+          <p class="text-2">The part number for boards I design carries 3 pieces of information numerically seperated by hyphens. First, I use 2 digits to refer to the size in inches of the board, rounded to the nearest integer, with the one digit being the length and the other being the width. The first digit is always the larger of the two, if they are not equal.</p>
+          <p class="text-2">The second piece of information is the date of creation, which uses 5 digits. It is specified in order of year (2 digits), week of the year (2 digits), and day of the week (1 digit, with Monday being the first day of the week). The final piece of information is the revision number, which serves just the same purpose as the revision number for products. This could be any number of digits, but is usually just one.</p>
+          <h2 class="head-2">Code</h2>
+          <p class="text-2">I code because I have to, not because I like to. The pseudonym I give to the fictional manufacturer of my code is typically "Joe's Code" or "jdCode". Similar to boards, the part number contains 3 pieces of numerical information, seperated by hyphens. The first is the size of the code in 10's of lines, rounded to the nearest 10. Two digits are alloted for this, allowing me to make code up to 994 lines long. While it is concievable that I may one day write code with more lines, I sure hope that day doesn't come. The next two piece of information are exactly identical to the date and revision portions of the part numbering scheme for boards, respectively.</p>
+      </div>
+    </div>
+
+   
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+    
+  <script src="accordion.js"></script>
+  
+
+
+</body>
+
+</html>
