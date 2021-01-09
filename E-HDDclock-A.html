@@ -86,8 +86,8 @@
             <a href="W-LifelongFriends.html">
                 <button class="sub-accordion">Lifelong Friends</button>
             </a>
-            <a href="W-OurConversations.html">
-                <button class="sub-accordion">Our Conversations</button>
+            <a href="W-OurConversation.html">
+                <button class="sub-accordion">Our Conversation</button>
             </a>
             <div class="accordion-footer"></div>
         </div>
@@ -118,26 +118,34 @@
       <div class="container-fluid">
         <h1 class="head-1">HDD Clock Controller - Solution Alpha</h1><div style="float: right;">
         <div class="button-group" style="border-bottom-width: 1px;">
-          <a href="#" download="Design Rationale Therm-B.xlsx">
+          <a href="assets/Engineering/HDD_Clock_Controller/Solution_Alpha/Design%20Rationale%20HDD-A.xlsx"
+             download="Design Rationale Therm-B.xlsx"
+             style="text-decoration: none;">
             <button class="download-button">Download Design Rationale</button>
           </a>
         </div>
         <div class="button-group" style="border-top-width: 2px;">
-          <a href="#" download="BOM Therm-B1.xlsx">
+          <a href="assets/Engineering/HDD_Clock_Controller/Solution_Alpha/BOM%20HDDclock-A0.xlsx"
+             download="BOM HDDclock-A0.xlsx"
+             style="text-decoration: none;">
             <button class="download-button">Download BOM</button>
           </a>
-          <a href="#" download=".zip">
+          <a href="assets/Engineering/HDD_Clock_Controller/Solution_Alpha/JDcode%2010-20494-0.zip"
+             download="JDcode 11-20495-0.zip"
+             style="text-decoration: none;">
             <button class="download-button">Download Board Files</button>
           </a>
-          <a href="#" download=".zip">
+          <a href="assets/Engineering/HDD_Clock_Controller/Solution_Alpha/JDboard%2011-20495-0.zip"
+             download="JDboard 10-20494-0.zip"
+             style="text-decoration: none;">
             <button class="download-button">Download Code Files</button>
           </a>
         </div>
       </div>
-      <img class="pict-1" src="assets/E-HDDclock-A1.png" alt="BOM" style="width: 800px">
+      <img class="pict-1" src="assets/Engineering/HDD_Clock_Controller/Solution_Alpha/BOM.png" alt="BOM" style="width: 800px">
       <p class="text-1">All off-board connections are made using eurostyle connectors. 5 V from off-board is used directly to power the microcontroller. This rail comes from a SATA-connector, so it's expected to be clean enough. However, just in case, a bypass capacitor hangs off the rail. For a time using a linear regulator to transform 12 V (needed for the LED's) into 5 V was considered. However, the infared emitter takes enough current to create thermal concerns for such a linear regulator. Morever, using 5 V directly lent itself to a smaller and cheaper solution, at the expense of an extra wire for the user to check.</p>
       <p class="text-1">As with the previous solution, 3 buttons were provided to allow adjusting the time. Surface mount buttons were selected over thru-hole ones. Though thru-hole buttons are much cheaper, they would require more board space, contrary to the goal of a smaller solution and likely making it more expensive overall.</p>
-      <img class="pict-1" src="assets/E-HDDclock-A2.png" alt="Schematic" style="width: 900px">
+      <img class="pict-1" src="assets/Engineering/HDD_Clock_Controller/Solution_Alpha/Schematic.png" alt="Schematic" style="width: 900px">
       </div>
     </div>
 

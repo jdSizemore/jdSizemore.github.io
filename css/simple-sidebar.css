@@ -107,6 +107,7 @@
 
 .download-button:hover {
     background-color: royalblue;
+    border-color: royalblue;
     color: black;
     transition: 0.2s;
 }
