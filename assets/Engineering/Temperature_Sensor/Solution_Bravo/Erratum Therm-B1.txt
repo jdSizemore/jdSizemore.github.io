@@ -1,8 +1,0 @@
-Change suggested clock speed from 1 MHz to 10 MHz.
-To use 1 MHz speed, one needs to re-burn the bootloader.
-Trying to use 1 MHz speed without re-burning the bootloader
-results in a clock that is slightly fast (delay(1000)
-will actually act more like delay(800))
-
-See note in SpenceKonde's githup under 'List of Tools
-sub-menus', under Tools -> Clock Speed
