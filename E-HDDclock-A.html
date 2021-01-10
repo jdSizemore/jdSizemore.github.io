@@ -8,6 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
+  <link rel="icon" href="assets/tab_icon.png">
   <title>Joseph D. Sizemore</title>
 
   <!-- Bootstrap core CSS -->
@@ -102,11 +103,7 @@
       <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
         <button class="toggle-button" id="menu-toggle">Toggle Menu</button>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="home-location">
           <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
             <a href="index.html">
                 <button class="home-button">Home</button>
@@ -142,10 +139,10 @@
           </a>
         </div>
       </div>
-      <img class="pict-1" src="assets/Engineering/HDD_Clock_Controller/Solution_Alpha/BOM.png" alt="BOM" style="width: 800px">
+      <img class="pict-1" src="assets/Engineering/HDD_Clock_Controller/Solution_Alpha/BOM.png" alt="BOM" style="width: 70%">
       <p class="text-1">All off-board connections are made using eurostyle connectors. 5 V from off-board is used directly to power the microcontroller. This rail comes from a SATA-connector, so it's expected to be clean enough. However, just in case, a bypass capacitor hangs off the rail. For a time using a linear regulator to transform 12 V (needed for the LED's) into 5 V was considered. However, the infared emitter takes enough current to create thermal concerns for such a linear regulator. Morever, using 5 V directly lent itself to a smaller and cheaper solution, at the expense of an extra wire for the user to check.</p>
       <p class="text-1">As with the previous solution, 3 buttons were provided to allow adjusting the time. Surface mount buttons were selected over thru-hole ones. Though thru-hole buttons are much cheaper, they would require more board space, contrary to the goal of a smaller solution and likely making it more expensive overall.</p>
-      <img class="pict-1" src="assets/Engineering/HDD_Clock_Controller/Solution_Alpha/Schematic.png" alt="Schematic" style="width: 900px">
+      <img class="pict-1" src="assets/Engineering/HDD_Clock_Controller/Solution_Alpha/Schematic.png" alt="Schematic" style="width: 90%">
       </div>
     </div>
 
