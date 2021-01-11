@@ -4,31 +4,52 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-simple-sidebar/blob/master/LICENSE)
  */
 
-.accordion {
+.accordion, .accordion:focus {
   color: #222;
   cursor: pointer;
   padding: 10px;
   width: 100%;
   text-align: left;
-  border: none;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
   outline: none;
+  margin: none;
+  transition: 0.4s;
+}
+
+.sub-accordion {
+  color: #222;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  outline: none;
+  margin: none;
   transition: 0.4s;
 }
 
 .level-1 {
-  background-color: #e0e0e0;
+  background-color: #d8d9da;
+  border-right: 1px solid #c0c0c0;
 }
 
 .level-2 {
-  background-color: #eaeaea;
+  background-color: #e5e6e7;
+  border-right: 1px solid #d5d5d5;
 }
 
 .level-3 {
-  background-color: #f5f5f5;
+  background-color: #f1f2f3;
+  border-right: 1px solid #f5f5f5;
 }
 
 .level-4 {
-  background-color: #ffffff;
+  background-color: #fdfeff;
+  border-right: 1px solid #ffffff;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover)
@@ -39,6 +60,7 @@
 .accordion:hover,.sub-accordion:hover {
   background-color: #ff2800;
   transition: 0.4s;
+  border: none;
 }
 
 .accordion:after {
@@ -56,42 +78,48 @@
 /* Style the accordion panel. Note: hidden by default */
 .panel {
   padding: 0 0px;
-  background-color: white;
+  background-color: inherit;
   display: none;
   overflow: hidden;
-}
-
-/* Style the sub-accordion buttons */
-.sub-accordion {
-  color: #222;
-  padding: 10px;
-  width: 100%;
-  text-align: center;
-  border: none;
-  margin: auto;
 }
 
 .sub-accordion-link {
   width: 100%;
 }
 
-.accordion-footer {
-  width: 100%;
-  background-color: #ccc;
-  padding: 8px;
+.shadow-1 {
+  border-color: #aaa
 }
 
+.shadow-2 {
+  border-color: #c0c0c0
+}
+
+.shadow-3 {
+  border-color: #d5d5d5
+}
+
+.shadow-1,.shadow-2,.shadow-3 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-right: none;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-left: none;
+  outline: none;
+  outline-offset: none;
+}
 
 /* End of Ann editing */
 
 .home-button {
-    background-color: #f8f9fa;
+    background-color: inherit;
     border-width: medium;
     border-color: #ff2800;
     border-radius: 0px;
     border-style: solid;
     padding: 6px 16px;
-    color: #333;
+    color: #222;
     font-size: 20px;
 }
 
