@@ -4,5 +4,5 @@ Trying to use 1 MHz speed without re-burning the bootloader
 results in a clock that is slightly fast (delay(1000)
 will actually act more like delay(800))
 
-See note in SpenceKonde's githup under 'List of Tools
+See note in SpenceKonde's github under 'List of Tools
 sub-menus', under Tools -> Clock Speed

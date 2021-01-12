@@ -87,6 +87,18 @@
   width: 100%;
 }
 
+.download-link {
+    text-decoration: none;
+    color: #888;
+    transition: 0.4s
+}
+
+.download-link:hover{
+    text-decoration: none;
+    color: black;
+    transition: 0.4s
+}
+
 .shadow-1 {
   border-color: #aaa
 }
@@ -183,13 +195,13 @@
     margin-top: 20px;
     margin-left: 5px;
     margin-right: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .text-1{
     margin-top: 0px;
     margin-left: 5px;
-    margin-right: 5px;
+    margin-right: 10px;
     margin-bottom: 5px;
     text-indent: 50px;
 }
@@ -198,7 +210,10 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
     width: 50%;
+    border: 1px solid #aaa
 }
 
 .head-2 {
@@ -211,7 +226,7 @@
 .text-2{
     margin-top: 0px;
     margin-left: 20px;
-    margin-right: 5px;
+    margin-right: 10px;
     margin-bottom: 5px;
     text-indent: 50px;
 }
@@ -226,9 +241,13 @@
 .text-3{
     margin-top: 0px;
     margin-left: 35px;
-    margin-right: 5px;
+    margin-right: 10px;
     margin-bottom: 5px;
     text-indent: 50px;
+}
+
+figcaption {
+    text-align: center;
 }
 
  #wrapper {
